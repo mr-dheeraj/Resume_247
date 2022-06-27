@@ -95,7 +95,7 @@ const ResumePreview = () => {
             spacing={1}
           >
             <VStack mx={2} alignItems={"flex-start"} w={"full"} spacing={6}>
-              // EDUCATION
+              
               <VStack alignItems={"flex-start"}>
                 <Heading as="h4" size="md" color={"gray.700"}>
                   EDUCATION
@@ -132,7 +132,7 @@ const ResumePreview = () => {
                   );
                 })}
               </VStack>
-              // EDUCATION // WORK EXPERIENCE
+              
               <VStack alignItems={"flex-start"}>
                 <Heading as="h4" size="md" color={"gray.700"}>
                   WORK EXPERIENCE
@@ -175,11 +175,11 @@ const ResumePreview = () => {
                   );
                 })}
               </VStack>
-              // WORK EXPERIENCE
+              
             </VStack>
 
             <VStack mx={2} alignItems={"flex-start"} w={"full"} spacing={6}>
-              // SKILLS
+              
               <VStack alignItems={"flex-start"}>
                 <Heading as="h4" size="md" color={"gray.700"}>
                   SKILLS
@@ -198,7 +198,7 @@ const ResumePreview = () => {
                   ))}
                 </Wrap>
               </VStack>
-              // SKILLS // PROJECTS
+              
               <VStack alignItems={"flex-start"}>
                 <Heading as="h4" size="md" color={"gray.700"}>
                   PROJECTS
@@ -232,7 +232,7 @@ const ResumePreview = () => {
                   );
                 })}
               </VStack>
-              // PROJECTS
+              
             </VStack>
           </HStack>
         </div>
