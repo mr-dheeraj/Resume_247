@@ -1,13 +1,12 @@
 import {
     Text,
     Stack,
-    HStack,
     Box,
     Container,
     IconButton,
     useColorModeValue
 } from '@chakra-ui/react';
-import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
+import {  FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const Footer = () => {
     return (
