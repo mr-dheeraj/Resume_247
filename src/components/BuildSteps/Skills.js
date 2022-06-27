@@ -5,7 +5,9 @@ import { useResume } from '../../Context';
 import { useToast } from '@chakra-ui/react';
 
 const Skills = () => {
-
+...
+"react/jsx-no-duplicate-props": [<enabled>, { "ignoreCase": <boolean> }]
+...
     const toast = useToast();
     const [skill, setSkill] = useState("");
     const { skills, setSkills } = useResume();
