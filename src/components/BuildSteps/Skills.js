@@ -5,9 +5,7 @@ import { useResume } from '../../Context';
 import { useToast } from '@chakra-ui/react';
 
 const Skills = () => {
-...
-"react/jsx-no-duplicate-props": [<enabled>, { "ignoreCase": <boolean> }]
-...
+
     const toast = useToast();
     const [skill, setSkill] = useState("");
     const { skills, setSkills } = useResume();
@@ -48,7 +46,7 @@ const Skills = () => {
                 {skills.length > 0 ? skills.map((skill, index) => (
                     <Tag
                         size={'lg'}
-                        key={index}
+                    
                         borderRadius='full'
                         variant='solid'
                         colorScheme='purple'
