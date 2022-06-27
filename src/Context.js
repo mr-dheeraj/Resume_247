@@ -8,7 +8,7 @@ export const useResume = () => useContext(ResumeContext);
 export const ResumeProvider = ({ children }) => {
 
     const printElem = useRef();
-    const toast = useToast();
+   // const toast = useToast();
 
     const [theme, setTheme] = useState('purple.400');
 
